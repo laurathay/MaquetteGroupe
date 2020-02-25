@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*----------------------*/
+
+h2{
+  text-transform:uppercase;
+  color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+.yellow{
+  color: yellow;
+}
+
+.white{
+	color:white;
+}
+
+.smalltextwhite{
+	color:white;
+	font-size: 10px;
+	margin-top: 3%;
+}
+
+header{
+	margin-top: 20px;
+}
+
+
+/*-------------1er bloc-----------*/
+.container-fluid{
+  background:#000;
+  height: 54vh;
+}
+
+.container-flex{
+  width:70%;
+  margin: 0 auto;
+  background:;
+  height: 70vh;
+  display: flex;
+}
+
+.container-titre{
+	margin-top:8%;
+}
+
+.smallh2{
+	color:white;
+}
+
+.container-button{
+	display: flex;
+	margin-top: 7%;
+}
+
+.buttonbuynow{
+	background-color: yellow !important;
+	color: black;
+	padding: 4px 10px;
+	margin-left: 3%;
+}
+
+.container-image{
+  width:50%;
+  height:70%;
+	background: grey;
+	opacity: 0.33;
+  text-align: right;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.bandeauyellow{
+	background: yellow;
+  height: 7vh;
+}
+.bandeauyellowtext{
+	padding-left: 15%;
+	padding-top: 2vh;
+}
+
+/*--------------------2eme bloc--------*/
+.container-fluid-2{
+  height:60vh;
+	margin-top: 2%;
+}
+.container-flex-2{
+width:70%;
+margin: 0 auto;
+background:;
+display: flex;
+}
+
+
+.loremipsum2{
+}
+
+.col-sm{
+	width: 5%;
+}
+
+
+/*--------------------3eme bloc--------*/
+.container-fluid-3{
+  background-color: black;
+  height:60vh;
+	margin-top: 2%;
+}
+
+
+/*--------------------4eme bloc--------*/
+.container-fluid-4{
+  height:60vh;
+	margin-top: 2%;
+}
+
+
+/*--------------------5eme bloc--------*/
+.container-fluid-5{
+  background-color: black;
+  height:60vh;
+	margin-top: 2%;
+}
+
+
+/*--------------------6eme bloc--------*/
+.container-fluid-6{
+  height:60vh;
+	margin-top: 2%;
+}
+
+/*--------------------7eme bloc--------*/
+.container-fluid-7{
+  background-color: yellow;
+  height:60vh;
+	margin-top: 2%;
+}

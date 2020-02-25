@@ -1,0 +1,136 @@
+/**{
+	box-sizing: border-box;
+}*/
+
+.tout{
+	margin: 100px 100px 100px 100px;	
+}
+
+
+/*pour la partie en haut*/
+.enhaut .enveloppe, .mail, .telephone, .list-inline, a{
+	display:inline-block;
+	text-decoration: none;
+}
+
+li{
+	color: black;
+}
+
+
+ul li{  /*bon il manque encore de les mettre a droite avec child*/
+	display:flex;
+	list-style: none;
+	display:inline;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+/*pour la partie haut*/
+span{
+	color: #fdce14;
+}
+
+.black{
+	color:black;
+}
+
+.ilemoni .i, .lemoni{
+	display:inline-block;
+}
+
+nav li{/* même problème ici c'est de mettre la nav a droite*/
+	justify-content: right;
+	text-align: right;
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	width: 100px;
+	height:40px;
+	border-right: 1px #CCCCCC;
+	text-align: right;
+	line-height: 40px;
+}
+
+nav li a{
+	text-decoration: none;
+	display:flex;
+	list-style: none;
+	display:inline;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+/* pour la partie banner*/
+.weare, .enveloppe{
+	color: #fdce14;
+}
+
+.lemoni{
+	color: white;
+}
+.weare .lemoni{
+	display:inline-block;
+}
+.haut .ilemoni, nav{
+	display:inline-block;
+}
+
+.banner{
+	justify-content: center;
+	text-align: center;
+	background-color: black;
+	padding: 20px 50px 20px 50px;
+	margin: 20px 0px 100px 0px;
+	color: white;
+	font-size: 25px;
+}
+
+/*pour la partir contactus */
+
+.home, .contact{
+	display:inline-block;
+
+
+
+/*iframe{             je ne comprends pas pourquoi celui ci ne marche plus
+	height: 100%;
+	width: 100%;
+} */
+
+/*.bordure{
+	border: 1px solid grey;
+	width: 50%;
+}
+
+.col{
+	display: flex;
+	justify-content: space-around;
+}
+
+.form-row .col{
+	display: inline-block;
+
+}
+
+.contactus{
+	display: flex;
+}
+/*
+.part1{
+	box-sizing: border-box;
+}
+
+.part2{
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+}
+
+.contactus .part1, .part2{
+	display: inline-block;
+	flex-direction: row;
+}
+
+.bigenveloppe, .enveloppe{
+	display:inline-block;*/

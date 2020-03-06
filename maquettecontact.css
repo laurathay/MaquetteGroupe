@@ -32,7 +32,7 @@ ul li{  /*bon il manque encore de les mettre a droite avec child*/
 }
 
 .list-inline{
-	padding-left: 650px; 
+	padding-left: 650px;
 }
 
 /*pour la partie haut*/
@@ -102,11 +102,6 @@ nav li a{
 	padding-left: 800px;
 }
 
-/*iframe{             je ne comprends pas pourquoi celui ci ne marche plus
-	height: 100%;
-	width: 100%;
-} */
-
 .bordure{
 	border: 1px solid grey;
 	width: 50%;
@@ -126,21 +121,22 @@ nav li a{
 	display: flex;
 	display: inline-block;
 }
-/*
+
+/* pour la partie en dessous de contact us*/
+
 .part1{
-	box-sizing: border-box;
+	margin-right: 20px;
 }
 
 .part2{
-	margin: 20px 20px 20px 20px;
-	padding: 20px 20px 20px 20px;
-	box-sizing: border-box;
+	margin: 0px 20px 20px 60px;
+	padding: 0px 20px 20px 20px;
 }
 
 .contactus .part1, .part2{
 	display: inline-block;
-	flex-direction: row;
 }
 
-.bigenveloppe, .enveloppe{
-	display:inline-block;*/
+/*.bigenveloppe, .enveloppe{
+	display:inline-block;
+}*/

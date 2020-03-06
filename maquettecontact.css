@@ -124,6 +124,10 @@ nav li a{
 
 /* pour la partie en dessous de contact us*/
 
+.bordure-iframe{
+	border: 0.2em grey solid;
+}
+
 .part1{
 	margin-right: 20px;
 }

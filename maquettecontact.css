@@ -1,17 +1,22 @@
-/**{
+/*{
 	box-sizing: border-box;
 }*/
 
 .tout{
-	margin: 100px 100px 100px 100px;	
+	margin: 100px 100px 100px 100px;
 }
 
 
 /*pour la partie en haut*/
+.mail{
+	border-right: solid 10% grey;
+}
+
 .enhaut .enveloppe, .mail, .telephone, .list-inline, a{
-	display:inline-block;
+	display: inline-block;
 	text-decoration: none;
 }
+
 
 li{
 	color: black;
@@ -24,6 +29,10 @@ ul li{  /*bon il manque encore de les mettre a droite avec child*/
 	display:inline;
 	justify-content: space-around;
 	flex-direction: row;
+}
+
+.list-inline{
+	padding-left: 650px; 
 }
 
 /*pour la partie haut*/
@@ -39,17 +48,14 @@ span{
 	display:inline-block;
 }
 
-nav li{/* même problème ici c'est de mettre la nav a droite*/
-	justify-content: right;
-	text-align: right;
+.haut-menu{
+	padding-left: 550px;
+}
+
+nav li{
 	display: inline-block;
 	margin:0px;
 	padding: 0px;
-	width: 100px;
-	height:40px;
-	border-right: 1px #CCCCCC;
-	text-align: right;
-	line-height: 40px;
 }
 
 nav li a{
@@ -81,7 +87,7 @@ nav li a{
 	text-align: center;
 	background-color: black;
 	padding: 20px 50px 20px 50px;
-	margin: 20px 0px 100px 0px;
+	margin: 20px 0px 10px 0px;
 	color: white;
 	font-size: 25px;
 }
@@ -90,15 +96,18 @@ nav li a{
 
 .home, .contact{
 	display:inline-block;
+}
 
-
+.home{
+	padding-left: 800px;
+}
 
 /*iframe{             je ne comprends pas pourquoi celui ci ne marche plus
 	height: 100%;
 	width: 100%;
 } */
 
-/*.bordure{
+.bordure{
 	border: 1px solid grey;
 	width: 50%;
 }
@@ -115,6 +124,7 @@ nav li a{
 
 .contactus{
 	display: flex;
+	display: inline-block;
 }
 /*
 .part1{

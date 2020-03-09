@@ -68,7 +68,7 @@ nav li a{
 }
 
 /* pour la partie banner*/
-.weare, .enveloppe{
+.weare, .enveloppe, .button-jaune{
 	color: #fdce14;
 }
 
@@ -94,6 +94,11 @@ nav li a{
 
 /*pour la partir contactus */
 
+iframe{
+	border-bottom: yellow solid ;
+	padding: 20px 20px 20px 20px;
+}
+
 .home, .contact{
 	display:inline-block;
 }
@@ -103,7 +108,7 @@ nav li a{
 }
 
 .bordure{
-	border: 1px solid grey;
+	border: 0.5px solid grey;
 	width: 50%;
 }
 
@@ -128,7 +133,21 @@ nav li a{
 	border: 0.2em grey solid;
 }
 
+.caseacocher{
+	margin: 5px 5px 5px 5px;
+}
+
+.button-jaune{
+	margin: 40px 20px 20px 40px;
+	padding: 10px 20px 10px 20px;
+	height:40px;
+	background-color: yellow;
+	color: black;
+	font-size: bold;
+}
+
 .part1{
+	margin-top: 0;
 	margin-right: 20px;
 }
 
@@ -141,6 +160,133 @@ nav li a{
 	display: inline-block;
 }
 
-/*.bigenveloppe, .enveloppe{
-	display:inline-block;
+/* -----------footer------------ */
+.banner2{
+	background-color: black;
+/*	padding: 20px 50px 20px 50px;*/
+	margin: 20px 0px 10px 0px;
+	color: white;
+	font-size: 10px;
+}
+
+/* -- i lemoni -- */
+/*.fas, h4{
+	display: inline-block;
 }*/
+
+/* -- recent post --*/
+/*.carre-gris, .carre-gris2{
+	background-color: grey;
+	width: 20px;
+	height: 20px;
+}
+
+.titre-jaune{
+	color:#fdce14;
+}
+
+.titre-blanc, h6{
+	color: white;
+}
+
+.carre-gris, .titre-jaune{
+	display:inline-block;
+}
+.carre-gris2, .titreblanc{
+	display: inline-block;
+}
+
+.banner2 .premier-bloc, .deuxieme-bloc, .troisieme-bloc, .quatrieme-bloc{
+	display:inline-block;
+}
+
+*/
+
+/* Bootstrap footer */
+.footer{
+	overflow: hidden;
+	width: 100%;
+	display: inline-block;
+	flex-direction: row;
+}
+
+.container .bis{
+	flex-direction: row;
+	display: inline-block;
+}
+
+.bis{
+	padding-top: 10px 10px;
+	margin: 10px 20px;
+}
+
+.footer {
+    padding: 20px 0 20px 0;
+    background-color: #090c14;
+    color: #878c94;
+		font-size: 10px;
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:15px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:15px;
+	padding:5px;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:12px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fa{
+/*	margin-right: 25px;*/
+}
+
+.footer .bis, .bis{
+	display: inline-block;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.carre-gris{
+	background-color: grey;
+	width: 20px;
+	height: 20px;
+	border: grey solid 1em;
+}
+
+.footer .payment{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    padding: 10px 10px;
+}

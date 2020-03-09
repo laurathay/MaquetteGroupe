@@ -9,6 +9,10 @@
 			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 			<!--bootstrap agenda-->
 			<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+			<!-- bootstrap pour le footer -->
+			<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+			<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+			<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 			<link rel="stylesheet" href="maquettecontact.css">
 			<title> Maquette</title>
@@ -72,7 +76,7 @@
 		<section class="contactus">
 			<section class="part1">
 				<div class="bordure-iframe">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198741.2754485602!2d-77.1546602349135!3d38.89351276365628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20District%20de%20Columbia%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1582052657914!5m2!1sfr!2sfr" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198741.2754485602!2d-77.1546602349135!3d38.89351276365628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20District%20de%20Columbia%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1582052657914!5m2!1sfr!2sfr" width="470" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
 				<h2> SEND US A MESSAGE! </h2><br/><br/>
 
@@ -87,7 +91,11 @@
 				  </div>
 
 				  	<br/>Subject<br/><br/><textarea name="Subject" cols="70"></textarea> <br/><br/>
-				  	Message<br/><br/><textarea name="name" rows="10" cols="70"></textarea>
+				  	Message<br/><br/><textarea name="name" rows="20" cols="80"></textarea>
+						<br/><br/>
+						<button type="button" class"caseacocher"></button> Send a copy to my e-mail adress
+						<br/>
+						<button type="button" name="button" class ="button-jaune"> SEND MESSAGE </button>
 				</form>
 			</section>
 			<section class="part2">
@@ -131,32 +139,128 @@
 
 		</section>
 
-		<!-- pour plus tard si je veux le mettre dans un tableau
-
-			<table>
-			   <tr>
-			       <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198741.2754485602!2d-77.1546602349135!3d38.89351276365628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20District%20de%20Columbia%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1582052657914!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
-			       <td><h3> Adresse info </h3></td>
-
-			   </tr>
-			   <tr>
-			       <td> SEND US A MESSAGE</td>
-			       <td>26 ans</td>
-			   </tr>
-			   <tr>
-			   		<td> </td>
-			   </tr>
-			</table> -->
-
-		<!--réseaux sociaux-->
+		<!--footer-->
+<!--
 		<div class="footer" id="footer">
-	        	<ul class= list-inline3>
-							<li><a href="wwww.descodeuses.org"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#room"><i class="fab fa-facebook-square"></i></a></li> <!-- ancre pour aller dans la section chambre du site-->
-							<li><a href="chambres.html"><i class="fab fa-instagram"></i></a></li> <!-- autre facon d'écrire le lien vers la page chambres du site-->
-						</ul>
-						<p> Site web créer par @ThayThay </p>
+			<section class="banner2">
+				<p>
+					<div class="premier-bloc">
+								<i class="fas fa-info-circle"></i><h4>lemoni </h4><br/>
+								Adress: No.28-63739 street lorem<br/>
+								ipsum City.country<br/><br/>
+								Phone: +1(234) 567 8901<br/><br/>
+								Fax: +1(234) 567 8901<br/><br/>
+								Email: support@yoursite.com<br/><br/>
+					</div>
+					<div class="deuxieme-bloc">
+							<h4> Recent post </h4><br/>
+								<div class= "first-part">
+										<div class="carre-gris"></div>
+										<div class ="titre-jaune">
+															<h6>Suspenendisse imperdiet</h6></div><br/>
+											<p class="lorem-dessous">Lorem ipsumpdolor sit amet <br/>
+											By John Doe/ 25 July<br/></p>
+										</div>
+								</div>
+
+								<div class="second-part">
+										<div class="carre-gris2"></div>
+										<div class="titre-blanc">
+															<h6>Suspenendisse imperdiet</h6></div><br/>
+											<p class="lorem-dessous">Lorem ipsumpdolor sit amet <br/>
+											By John Doe/ 25 July<br/></p>
+										</div>
+					</div>
+					<div class="troisieme-bloc">
+
+					</div>
+					<div class="quatrieme-bloc">
+
+					</div>
+				</p>
+			</section>
+			<ul class= list-inline3>
+				<li><a href="wwww.descodeuses.org"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#room"><i class="fab fa-facebook-square"></i></a></li> <!-- ancre pour aller dans la section chambre du site-->
+			<!--	<li><a href="chambres.html"><i class="fab fa-instagram"></i></a></li> <!-- autre facon d'écrire le lien vers la page chambres du site-->
+		<!--	</ul>
+	  </div>-->
+	-->
+	<footer class="footer">
+	    <div class="container">
+	        <div class="row">
+	        <div class="col-sm-3 bis">
+	            <h4 class="title"><i class="fas fa-info-circle"></i>lemoni </h4><br/>
+							Adress: No.28-63739 street lorem<br/>
+							ipsum City.country<br/><br/>
+							Phone: +1(234) 567 8901<br/><br/>
+							Fax: +1(234) 567 8901<br/><br/>
+							Email: support@yoursite.com<br/><br/>
+	        </div>
+					<div class="col-sm-3 bis">
+            <h4 class="title">Recent Post</h4>
+            <span class="acount-icon">
+            <a href="#"><div class="carre-gris"></div> Suspenendisse imperdiet <br/> Lorem ipsumpdolor sit amet <br/> By John Doe / 25 July</a>
+            <a href="#"><div class="carre-gris"></div> Suspenendisse imperdiet <br/> Lorem ipsumpdolor sit amet <br/> By John Doe / 25 July</a>
+            </span>
+        </div>
+        <div class="col-sm-3 bis">
+            <h4 class="title"> Tags </h4>
+            <div class="category">
+                <a href="#"> Awesome</a>
+                <a href="#"> Photography</a><br/>
+                <a href="#"> UI DEsign</a>
+                <a href="#"> Branding </a><br/>
+								<a href="#"> All </a>
+								<a href="#"> Business </a><br/>
+								<a href="#"> Creative </a>
+								<a href="#"> Design </a><br/>
+								<a href="#"> Wireframe </a>
+            </div>
 				</div>
+        <div class="col-sm-3 bis">
+            <h4 class="title"> Flickr Widget </h4>
+				<!--		<span class="acount-icon bis">
+                <a href="#"><div class="carre-gris"></div></a>
+                <a href="#"><div class="carre-gris"></div></a>
+                <a href="#"><div class="carre-gris"></div></a>
+                <a href="#"><div class="carre-gris"></div><br/></a>
+								<a href="#"><div class="carre-gris"></div></a>
+								<a href="#"><div class="carre-gris"></div></a>
+								<a href="#"><div class="carre-gris"></div></a>
+								<a href="#"><div class="carre-gris"></div></a>
+						</span> -->
+													<table>
+													  <tr>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													  </tr>
+													  <tr>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													    <td><a href="#"><div class="carre-gris"></div></a></td>
+													  </tr>
+													</table>
+
+        </div>
+        </div>
+        <hr>
+        <div class="row text-center"><a href="http://lacodeid.com/" style="color: #fff;"> 	            <ul class="social-icon">
+					                <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					                <a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					                <a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					                <a href="#" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+					                <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+					                <a href="#" class="social"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+					            </ul></a></div>
+    </div>
+</footer>
+
 	</section>
 
 </body>

@@ -166,12 +166,17 @@ display: flex;
   height:60vh;
 	margin-top: 2%;
 	margin: 0 auto;
+	opacity: 0.80;
+	color: white;
 }
 .container-flex-3{
 width:70%;
 margin: 0 auto;
 margin
 display: flex;
+}
+.button-view-more-yellow{
+	background-color: yellow;
 }
 
 

@@ -165,6 +165,13 @@ display: flex;
   background-color: black;
   height:60vh;
 	margin-top: 2%;
+	margin: 0 auto;
+}
+.container-flex-3{
+width:70%;
+margin: 0 auto;
+margin
+display: flex;
 }
 
 
@@ -173,6 +180,8 @@ display: flex;
   height:60vh;
 	margin-top: 2%;
 }
+
+
 
 
 /*--------------------5eme bloc--------*/

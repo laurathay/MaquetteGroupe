@@ -114,6 +114,12 @@ header{
 	margin-left: 3%;
 }
 
+.button-buynow-black{
+	margin-left: 70%;
+	background-color: black;
+	color: white;
+}
+
 .container-image{
   width:50%;
   height:70%;

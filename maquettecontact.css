@@ -152,7 +152,7 @@ iframe{
 }
 
 .part2{
-	margin: 0px 20px 20px 60px;
+	margin: 0px 20px 20px 80px;
 	padding: 0px 20px 20px 20px;
 }
 
@@ -208,17 +208,10 @@ iframe{
 	width: 100%;
 	display: inline-block;
 	flex-direction: row;
+	align-content: flex-start;
+
 }
 
-.container .bis{
-	flex-direction: row;
-	display: inline-block;
-}
-
-.bis{
-	padding-top: 10px 10px;
-	margin: 10px 20px;
-}
 
 .footer {
     padding: 20px 0 20px 0;
@@ -241,31 +234,6 @@ iframe{
 	font-size:15px;
 	padding:5px;
 }
-.footer .acount-icon a{
-	display:block;
-	color:#fff;
-	font-size:12px;
-	padding:5px;
-	text-decoration:none;
-}
-.footer .acount-icon .fa{
-/*	margin-right: 25px;*/
-}
-
-.footer .bis, .bis{
-	display: inline-block;
-}
-.footer .category a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 5px 20px;
-    margin: 1px;
-    border-radius:4px;
-    margin-top: 6px;
-    background-color: black;
-    border: solid 1px #fff;
-}
 
 .carre-gris{
 	background-color: grey;
@@ -274,7 +242,18 @@ iframe{
 	border: grey solid 1em;
 }
 
-.footer .payment{
+.maman-tag2 .carre-gris, .bb-tag2{
+	display: inline-block;
+	flex-direction: row;
+}
+
+.maman-tag .tag{
+	display: inline-block;
+	justify-content: space-around;
+	border: black solid 1em;
+}
+
+/*.footer .payment{
 	margin:0px;
 	padding:0px;
 	list-style-type:none
@@ -289,4 +268,9 @@ iframe{
     float: left;
     font-size: 15px;
     padding: 10px 10px;
+}*/
+
+.premier-tableau{
+	width: 100%;
+	height: auto;
 }

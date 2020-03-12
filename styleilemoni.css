@@ -172,14 +172,15 @@ display: flex;
 .container-flex-3{
 width:70%;
 margin: 0 auto;
-padding-top: 50px;
+padding-top: 100px;
 }
 .button-view-more-yellow{
 	background-color: yellow;
 	margin-top: 30px;
 }
 .container-image-3-small{
-	margin-top: 10px;
+	margin-top: 20px;
+	font-size: 10px;
 }
 
 

@@ -62,7 +62,7 @@ h3{
 }
 
 .yellow{
-  color: yellow;
+  color: #fdce14;
 }
 
 .white{
@@ -108,7 +108,7 @@ header{
 }
 
 .buttonbuynow{
-	background-color: yellow !important;
+	background-color: #fdce14 !important;
 	color: black;
 	padding: 4px 10px;
 	margin-left: 3%;
@@ -131,7 +131,7 @@ header{
 }
 
 .bandeauyellow{
-	background: yellow;
+	background: #fdce14;
   height: 7vh;
 }
 .bandeauyellowtext{
@@ -175,7 +175,7 @@ margin: 0 auto;
 padding-top: 100px;
 }
 .button-view-more-yellow{
-	background-color: yellow;
+	background-color: #fdce14;
 	margin-top: 30px;
 }
 .container-image-3-small{
@@ -209,7 +209,7 @@ padding-top: 100px;
 
 /*--------------------7eme bloc--------*/
 .container-fluid-7{
-  background-color: yellow;
+  background-color: #fdce14;
   height:60vh;
 	margin-top: 2%;
 }

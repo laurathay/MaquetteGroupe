@@ -80,6 +80,31 @@ header{
 }
 
 
+/*----- nav------------*/
+
+.haut .ilemoni, nav{
+	display:inline-block;
+}
+ul li{  /*bon il manque encore de les mettre a droite avec child*/
+	display:flex;
+	list-style: none;
+	display:inline;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+nav li{/* même problème ici c'est de mettre la nav a droite*/
+	justify-content: right;
+	text-align: right;
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+	width: 100px;
+	height:40px;
+	border-right: 1px #CCCCCC;
+	text-align: right;
+	line-height: 40px;
+}
 /*-------------1er bloc-----------*/
 .container-fluid{
   background:#000;

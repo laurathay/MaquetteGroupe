@@ -1,15 +1,21 @@
-/*{
-	box-sizing: border-box;
-}*/
-
-.tout{
-	margin: 100px 100px 100px 100px;
+/*pour la partie en haut*/
+body{ /* ca c'est pour pas qui ait d'espace entre la banner et le site*/
+	margin: 0;
+}
+.mail{
+	color:grey;
 }
 
+.telephone{
+	color:grey;
+}
 
-/*pour la partie en haut*/
-.mail{
-	border-right: solid 10% grey;
+.mail .enveloppe, .email{
+	display:inline-block;
+}
+
+.telephone .enveloppe, .number{
+	display:inline-block;
 }
 
 .enhaut .enveloppe, .mail, .telephone, .list-inline, a{
@@ -18,22 +24,29 @@
 }
 
 
-li{
-	color: black;
+.list-inline{
+	color: grey;
+	padding-left: 500px;
+	margin-left: 200px;
 }
 
 
 ul li{  /*bon il manque encore de les mettre a droite avec child*/
 	display:flex;
 	list-style: none;
-	display:inline;
 	justify-content: space-around;
 	flex-direction: row;
 }
 
-.list-inline{
-	padding-left: 650px;
+.list-inline .espace{
+	display:inline-block;
+	width: 10px; /*pas trop sure les 4 lignes dessous*/
+	height:10px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 10px;
 }
+
 
 /*pour la partie haut*/
 span{
@@ -49,7 +62,7 @@ span{
 }
 
 .haut-menu{
-	padding-left: 550px;
+	padding-left: 660px;
 }
 
 nav li{
@@ -82,14 +95,19 @@ nav li a{
 	display:inline-block;
 }
 
+.haut-menu .espace{
+	display: inline-block;
+}
+
 .banner{
 	justify-content: center;
 	text-align: center;
 	background-color: black;
-	padding: 20px 50px 20px 50px;
+	padding: 45px 30px 45px 30px;
 	margin: 20px 0px 10px 0px;
 	color: white;
 	font-size: 25px;
+	width: 100%;
 }
 
 /*pour la partir contactus */
@@ -124,7 +142,6 @@ iframe{
 
 .contactus{
 	display: flex;
-	display: inline-block;
 }
 
 /* pour la partie en dessous de contact us*/
@@ -136,12 +153,19 @@ iframe{
 .caseacocher{
 	margin: 5px 5px 5px 5px;
 }
+.button-copy .caseacocher .grey{ /* a remettre aligner */ 
+	display:flex;
+}
 
-.button-jaune{
+.grey{
+	color:grey;
+}
+
+.button-jaune2{
 	margin: 40px 20px 20px 40px;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 50px 10px 50px;
 	height:40px;
-	background-color: yellow;
+	background-color: #fdce14;
 	color: black;
 	font-size: bold;
 }
@@ -242,6 +266,10 @@ iframe{
 	border: grey solid 1em;
 }
 
+.jaune{
+	color:
+}
+
 .maman-tag2 .carre-gris, .bb-tag2{
 	display: inline-block;
 	flex-direction: row;
@@ -253,24 +281,28 @@ iframe{
 	border: black solid 1em;
 }
 
-/*.footer .payment{
-	margin:0px;
-	padding:0px;
-	list-style-type:none
-}
-.footer .payment li{
-	list-style-type:none
-}
-.footer .payment li a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    float: left;
-    font-size: 15px;
-    padding: 10px 10px;
-}*/
-
 .premier-tableau{
 	width: 100%;
 	height: auto;
+}
+
+.deuxieme-tableau{
+	justify-content: space-around;
+}
+
+.nav-bas .espace{
+	display: inline-block;
+	justify-content: space-between;
+
+}
+
+.espace{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button-go{
+	background-color: #fdce14;
+	padding: 4px 5px 4px 5px;
+	font-size: bold;
 }

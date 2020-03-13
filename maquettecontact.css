@@ -331,10 +331,17 @@ iframe{
 
 .deuxieme-tableau{
 	justify-content: space-around;
+	justify-content: space-between;
+	height:50px;
+	width:1252px;
 }
 
 td .list-inline3{
 	display:flex;
+}
+
+.list-inline3{
+	color:grey;
 }
 
 .nav-bas .espace{
@@ -349,7 +356,8 @@ td .list-inline3{
 }
 
 .email-address{
-	padding: 2px 2
+	width:112px;
+	height:17px;
 }
 .button-go{
 	background-color: #fdce14;

@@ -24,12 +24,23 @@ body{ /* ca c'est pour pas qui ait d'espace entre la banner et le site*/
 }
 
 
-.list-inline{
+.en-haut .list-inline{
 	color: grey;
-	padding-left: 500px;
-	margin-left: 200px;
+	/*padding-left: 500px;
+	margin-left: 200px;*/
+	display: flex;
+	height:161px;
+	width:17px;
 }
 
+.list-inline{
+	color: grey;
+}
+
+.bis{
+	margin-left: 50em;
+	color: grey;
+}
 
 ul li{  /*bon il manque encore de les mettre a droite avec child*/
 	display:flex;
@@ -42,9 +53,6 @@ ul li{  /*bon il manque encore de les mettre a droite avec child*/
 	display:inline-block;
 	width: 10px; /*pas trop sure les 4 lignes dessous*/
 	height:10px;
-	border-right: 1px solid #CCCCCC;
-	text-align: center;
-	line-height: 10px;
 }
 
 
@@ -106,27 +114,39 @@ nav li a{
 	padding: 45px 30px 45px 30px;
 	margin: 20px 0px 10px 0px;
 	color: white;
-	font-size: 25px;
+	font-size: 35px;
 	width: 100%;
 }
 
-/*pour la partir contactus */
-
-iframe{
-	border-bottom: yellow solid ;
-	padding: 20px 20px 20px 20px;
-}
+/*------ pour la partir dessousbanner ------- */
 
 .home, .contact{
 	display:inline-block;
 }
 
+
 .home{
-	padding-left: 800px;
+	padding-left: 65em;
+}
+
+/*------pour la partir contactus------- */
+.contactus{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.bordure-iframe{
+	border: 0.1em;
+
+}
+
+iframe{
+	border-bottom: yellow solid 0.1em;
+	padding: 20px 20px 20px 20px;
 }
 
 .bordure{
-	border: 0.5px solid grey;
+	border: 0.1px solid grey;
 	width: 50%;
 }
 
@@ -140,6 +160,7 @@ iframe{
 
 }
 
+
 .contactus{
 	display: flex;
 }
@@ -148,13 +169,16 @@ iframe{
 
 .bordure-iframe{
 	border: 0.2em grey solid;
+	border-bottom: #fdce14 solid 0.5em;
 }
-
+.top-jaune{
+	margin-top: #fdce14 solid 0.5em;
+}
 .caseacocher{
 	margin: 5px 5px 5px 5px;
 }
-.button-copy .caseacocher .grey{ /* a remettre aligner */ 
-	display:flex;
+.button-copy .caseacocher .grey{ /* a remettre aligner */
+	display:inline-block;
 }
 
 .grey{
@@ -162,8 +186,8 @@ iframe{
 }
 
 .button-jaune2{
-	margin: 40px 20px 20px 40px;
-	padding: 10px 50px 10px 50px;
+	margin: 40px 20px 20px 0px;
+	padding: 10px 75px 10px 75px;
 	height:40px;
 	background-color: #fdce14;
 	color: black;
@@ -182,6 +206,24 @@ iframe{
 
 .contactus .part1, .part2{
 	display: inline-block;
+}
+
+.list-inline2 .espace2{
+	display:inline-block;
+	width: 50px; /*pas trop sure les 4 lignes dessous*/
+	height:50px;
+	text-align: center;
+	line-height: 10px;
+}
+
+.list-inline2{
+	margin-top: 20px;
+}
+
+.memeligne1 .aligntoi, .eveloppe{
+}
+
+.memeligne2 .aligntoi2,span{
 }
 
 /* -----------footer------------ */
@@ -282,12 +324,17 @@ iframe{
 }
 
 .premier-tableau{
+	margin-left: 20px;
 	width: 100%;
 	height: auto;
 }
 
 .deuxieme-tableau{
 	justify-content: space-around;
+}
+
+td .list-inline3{
+	display:flex;
 }
 
 .nav-bas .espace{
@@ -301,8 +348,13 @@ iframe{
 	padding-right: 10px;
 }
 
+.email-address{
+	padding: 2px 2
+}
 .button-go{
 	background-color: #fdce14;
+	margin: ;
+	height: ;
 	padding: 4px 5px 4px 5px;
 	font-size: bold;
 }
